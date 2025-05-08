@@ -164,7 +164,7 @@ with tabs[1]:
     col1, col2 = st.columns([1, 3])
 
     with col1:
-        st.image("my_photo.jpg", width=150)  # Replace with your image file or URL
+        st.image("My_Photo.jpg", width=150)  # Replace with your image file or URL
 
     with col2:
         st.subheader("Mrudula Tushar Talegaonkar")
