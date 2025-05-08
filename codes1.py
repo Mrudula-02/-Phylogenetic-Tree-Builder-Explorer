@@ -161,20 +161,17 @@ with tabs[1]:
     """)
 
     st.header("Creator")
-    col1, col2 = st.columns([1, 3])
+    st.subheader("Mrudula Tushar Talegaonkar")
+    st.write("""
+    **MSc Bioinformatics Student (DES Pune University)**  
+    I am a passionate and curious learner in the field of bioinformatics, with a deep interest in genomics, computational biology, and molecular data analysis. My focus is on developing practical bioinformatics tools and pipelines that help simplify complex biological datasets and make them more accessible to researchers and students.
 
-    with col1:
-        st.image("My_Photo.jpg", width=150)  # Replace with your image file or URL
+    I am enthusiastic about exploring new technologies, learning advanced algorithms, and applying them to real-world biological questions. I enjoy working at the intersection of biology and computer science, aiming to contribute to meaningful discoveries in health, agriculture, and life sciences.
 
-    with col2:
-        st.subheader("Mrudula Tushar Talegaonkar")
-        st.write("""
-            **MSc Bioinformatics Student (DES Pune University)**  
-            Passionate about genomics, computational biology, and developing bioinformatics tools to simplify complex analyses.
 
-            🔗 [LinkedIn](https://www.linkedin.com/in/mrudula-talegaonkar-22b8482b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
-            💻 [GitHub](https://github.com/Mrudula-02)
-        """)
+    🔗 [LinkedIn](https://www.linkedin.com/in/mrudula-talegaonkar-22b8482b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
+    💻 [GitHub](https://github.com/Mrudula-02)
+    """)
 
     st.header("Acknowledgement")
     st.write("""
